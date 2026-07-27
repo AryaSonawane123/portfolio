@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Arya Sonawane</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav-brand">
+        <svg class="node-mark" viewBox="0 0 26 12" aria-hidden="true">
+          <line x1="3" y1="6" x2="13" y2="3"></line>
+          <line x1="13" y1="3" x2="23" y2="6"></line>
+          <circle cx="3" cy="6" r="2.2"></circle>
+          <circle cx="13" cy="3" r="2.2"></circle>
+          <circle cx="23" cy="6" r="2.2"></circle>
+        </svg>
+        Arya Sonawane
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html" aria-current="page">Projects</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="page-header">
+    <div class="wrap">
+      <span class="eyebrow">
+        <svg class="node-mark" viewBox="0 0 26 12" aria-hidden="true">
+          <line x1="3" y1="6" x2="13" y2="3"></line>
+          <line x1="13" y1="3" x2="23" y2="6"></line>
+          <circle cx="3" cy="6" r="2.2"></circle>
+          <circle cx="13" cy="3" r="2.2"></circle>
+          <circle cx="23" cy="6" r="2.2"></circle>
+        </svg>
+        Projects
+      </span>
+      <h1>Projects</h1>
+      <p class="lede">Applied ML work — each one a full pass from raw data to a working prototype.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="grid grid-3">
+
+        <div class="card project-card">
+          <h3>AI Fraud Detection</h3>
+          <p>
+            A classification model trained to flag suspicious transactions,
+            balancing precision against the cost of missed fraud.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">Machine Learning</span>
+            <span class="tag">Pandas</span>
+          </div>
+        </div>
+
+        <div class="card project-card">
+          <h3>Smart Electricity Monitor</h3>
+          <p>
+            A system for tracking household electricity usage and surfacing
+            patterns that point to waste or unusual consumption.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">Data Analytics</span>
+          </div>
+        </div>
+
+        <div class="card project-card">
+          <h3>Crop Recommendation System</h3>
+          <p>
+            A model that recommends suitable crops from soil and climate data,
+            aimed at helping farmers make better-informed planting decisions.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span>
+            <span class="tag">Machine Learning</span>
+            <span class="tag">NumPy</span>
+          </div>
+        </div>
+
+      </div>
+
+      <p style="margin-top:32px; color:var(--slate-light); font-size:0.9rem;">
+        Full code for these projects is on
+        <a href="https://github.com/AryaSonawane557/my" target="_blank" rel="noopener" style="color:var(--accent-dark); font-weight:600;">GitHub</a>.
+      </p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© 2026 Arya Sonawane. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="https://www.linkedin.com/in/arya-sonawane-2072b132a" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/AryaSonawane557/my" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="mailto:aryasonawane81@gmail.com">Email</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
