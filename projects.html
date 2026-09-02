@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects | Arya Sonawane</title>
+  <meta name="description" content="Projects built by Arya Sonawane — AI fraud detection, disease prediction, crop recommendation, and electricity monitoring systems.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -50,58 +51,100 @@
         Projects
       </span>
       <h1>Projects</h1>
-      <p class="lede">Applied ML work — each one a full pass from raw data to a working prototype.</p>
+      <p class="lede">End-to-end software and ML projects — from problem definition to a working prototype with measurable results.</p>
     </div>
   </section>
 
   <section class="section">
     <div class="wrap">
-      <div class="grid grid-3">
+      <div class="grid grid-2" style="gap: 24px;">
 
-        <div class="card project-card">
-          <h3>AI Fraud Detection</h3>
-          <p>
-            A classification model trained to flag suspicious transactions,
-            balancing precision against the cost of missed fraud.
+        <!-- Project 1: AI Fraud Detection -->
+        <div class="card project-card" style="border-top: 3px solid #00e5ff; display: flex; flex-direction: column;">
+          <div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 8px;">
+            <h3 style="margin: 0;">AI Fraud Detection System</h3>
+            <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--accent); background: rgba(0,229,255,0.08); border: 1px solid rgba(0,229,255,0.2); padding: 3px 8px; border-radius: 4px; white-space: nowrap; margin-left: 10px;">ML · Classification</span>
+          </div>
+          <p style="flex: 1;">
+            A supervised classification model trained to detect fraudulent financial transactions in real time. Handles class imbalance using SMOTE and optimizes the precision-recall tradeoff to minimize missed fraud cases.
           </p>
-          <div class="tag-row">
+          <div class="tag-row" style="margin-bottom: 16px;">
             <span class="tag">Python</span>
-            <span class="tag">Machine Learning</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">Matplotlib</span>
+          </div>
+          <a href="https://github.com/AryaSonawane557/my" target="_blank" rel="noopener" class="btn btn-ghost" style="align-self: flex-start;">View on GitHub ↗</a>
+        </div>
+
+        <!-- Project 2: Multi-Disease Prediction -->
+        <div class="card project-card" style="border-top: 3px solid #7c3aed; display: flex; flex-direction: column;">
+          <div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 8px;">
+            <h3 style="margin: 0;">Multi-Disease Prediction System</h3>
+            <span style="font-family: var(--font-mono); font-size: 0.7rem; color: #a78bfa; background: rgba(124,58,237,0.1); border: 1px solid rgba(124,58,237,0.3); padding: 3px 8px; border-radius: 4px; white-space: nowrap; margin-left: 10px;">ML · Healthcare</span>
+          </div>
+          <p style="flex: 1;">
+            A web-based system that predicts multiple diseases (diabetes, heart disease, Parkinson's) from patient input data using separate supervised ML models. Deployed as a Flask web application. Published in a research journal.
+          </p>
+          <div class="tag-row" style="margin-bottom: 16px;">
+            <span class="tag">Python</span>
+            <span class="tag">Scikit-learn</span>
+            <span class="tag">Flask</span>
+            <span class="tag">HTML &amp; CSS</span>
             <span class="tag">Pandas</span>
           </div>
+          <a href="https://github.com/AryaSonawane557/my" target="_blank" rel="noopener" class="btn btn-ghost" style="align-self: flex-start;">View on GitHub ↗</a>
         </div>
 
-        <div class="card project-card">
-          <h3>Smart Electricity Monitor</h3>
-          <p>
-            A system for tracking household electricity usage and surfacing
-            patterns that point to waste or unusual consumption.
-          </p>
-          <div class="tag-row">
-            <span class="tag">Python</span>
-            <span class="tag">Data Analytics</span>
+        <!-- Project 3: Crop Recommendation -->
+        <div class="card project-card" style="border-top: 3px solid #10b981; display: flex; flex-direction: column;">
+          <div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 8px;">
+            <h3 style="margin: 0;">Crop Recommendation System</h3>
+            <span style="font-family: var(--font-mono); font-size: 0.7rem; color: #34d399; background: rgba(16,185,129,0.1); border: 1px solid rgba(16,185,129,0.3); padding: 3px 8px; border-radius: 4px; white-space: nowrap; margin-left: 10px;">ML · AgriTech</span>
           </div>
-        </div>
-
-        <div class="card project-card">
-          <h3>Crop Recommendation System</h3>
-          <p>
-            A model that recommends suitable crops from soil and climate data,
-            aimed at helping farmers make better-informed planting decisions.
+          <p style="flex: 1;">
+            A model that recommends the most suitable crop for a given field based on soil nutrients (N, P, K), temperature, humidity, pH, and rainfall data. Helps farmers make data-backed planting decisions to maximize yield.
           </p>
-          <div class="tag-row">
+          <div class="tag-row" style="margin-bottom: 16px;">
             <span class="tag">Python</span>
-            <span class="tag">Machine Learning</span>
+            <span class="tag">Scikit-learn</span>
             <span class="tag">NumPy</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Seaborn</span>
           </div>
+          <a href="https://github.com/AryaSonawane557/my" target="_blank" rel="noopener" class="btn btn-ghost" style="align-self: flex-start;">View on GitHub ↗</a>
+        </div>
+
+        <!-- Project 4: Smart Electricity Monitor -->
+        <div class="card project-card" style="border-top: 3px solid #d9a441; display: flex; flex-direction: column;">
+          <div style="display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 8px;">
+            <h3 style="margin: 0;">Smart Electricity Monitor</h3>
+            <span style="font-family: var(--font-mono); font-size: 0.7rem; color: #fbbf24; background: rgba(217,164,65,0.1); border: 1px solid rgba(217,164,65,0.3); padding: 3px 8px; border-radius: 4px; white-space: nowrap; margin-left: 10px;">Analytics · IoT</span>
+          </div>
+          <p style="flex: 1;">
+            A data analytics system for tracking household electricity usage patterns over time. Surfaces anomalies, identifies peak-consumption windows, and generates visual dashboards to detect waste or unusual consumption behavior.
+          </p>
+          <div class="tag-row" style="margin-bottom: 16px;">
+            <span class="tag">Python</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Matplotlib</span>
+            <span class="tag">IBM Cognos</span>
+            <span class="tag">SQL</span>
+          </div>
+          <a href="https://github.com/AryaSonawane557/my" target="_blank" rel="noopener" class="btn btn-ghost" style="align-self: flex-start;">View on GitHub ↗</a>
         </div>
 
       </div>
 
-      <p style="margin-top:32px; color:var(--slate-light); font-size:0.9rem;">
-        Full code for these projects is on
-        <a href="https://github.com/AryaSonawane557/my" target="_blank" rel="noopener" style="color:var(--accent-dark); font-weight:600;">GitHub</a>.
-      </p>
+      <div style="margin-top: 40px; padding: 24px; border: 1px solid rgba(0,229,255,0.15); border-radius: 12px; background: rgba(0,229,255,0.03); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
+        <div>
+          <p style="margin: 0; font-weight: 600; color: #fff;">See all code &amp; repositories</p>
+          <p style="margin: 4px 0 0; font-size: 0.88rem; color: var(--slate-light);">All project source code is available on GitHub.</p>
+        </div>
+        <a href="https://github.com/AryaSonawane557/my" target="_blank" rel="noopener" class="btn btn-primary">Visit GitHub Profile ↗</a>
+      </div>
+
     </div>
   </section>
 

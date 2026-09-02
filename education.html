@@ -4,131 +4,164 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Education | Arya Sonawane</title>
+  <meta name="description" content="Academic background of Arya Sonawane — B.Tech CSE (AI & Data Science) at Sanjivani College of Engineering, Kopargaon.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
+
+  <style>
+    .edu-date {
+      display: inline-block;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--accent);
+      background: rgba(0, 229, 255, 0.08);
+      border: 1px solid rgba(0, 229, 255, 0.2);
+      padding: 3px 10px;
+      border-radius: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-top: 8px;
+    }
+    .edu-content h4 {
+      color: var(--slate);
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      font-weight: 500;
+      margin: 6px 0 4px;
+    }
+    .edu-content p {
+      margin: 4px 0 0;
+      font-size: 0.92rem;
+      color: var(--slate-light);
+    }
+    .edu-timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 760px;
+    }
+    .edu-card {
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+    .edu-card:hover {
+      border-color: var(--accent) !important;
+      transform: translateX(4px);
+    }
+  </style>
 </head>
 
 <body>
 
 <header class="site-header">
   <nav class="nav">
-    <a href="index.html" class="nav-brand">Arya Sonawane</a>
-
-    <button class="nav-toggle">
-      <span></span>
-      <span></span>
-      <span></span>
+    <a href="index.html" class="nav-brand">
+      <svg class="node-mark" viewBox="0 0 26 12" aria-hidden="true">
+        <line x1="3" y1="6" x2="13" y2="3"></line>
+        <line x1="13" y1="3" x2="23" y2="6"></line>
+        <circle cx="3" cy="6" r="2.2"></circle>
+        <circle cx="13" cy="3" r="2.2"></circle>
+        <circle cx="23" cy="6" r="2.2"></circle>
+      </svg>
+      Arya Sonawane
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
     </button>
-
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="skills.html">Skills</a></li>
       <li><a href="projects.html">Projects</a></li>
-      <li><a href="education.html" class="active">Education</a></li>
+      <li><a href="education.html" aria-current="page">Education</a></li>
       <li><a href="certificates.html">Certificates</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 </header>
 
-
 <section class="page-header">
-    <div class="wrap">
-        <span class="eyebrow">Education</span>
-        <h1>Academic Journey</h1>
-        <p>
-            My educational background reflects a strong foundation in Artificial
-            Intelligence, Data Science, and Computer Science, supported by
-            continuous learning and practical experience.
-        </p>
-    </div>
+  <div class="wrap">
+    <span class="eyebrow">
+      <svg class="node-mark" viewBox="0 0 26 12" aria-hidden="true">
+        <line x1="3" y1="6" x2="13" y2="3"></line>
+        <line x1="13" y1="3" x2="23" y2="6"></line>
+        <circle cx="3" cy="6" r="2.2"></circle>
+        <circle cx="13" cy="3" r="2.2"></circle>
+        <circle cx="23" cy="6" r="2.2"></circle>
+      </svg>
+      Education
+    </span>
+    <h1>Academic Journey</h1>
+    <p class="lede">
+      A strong foundation in Computer Science Engineering backed by continuous learning, hands-on projects, and industry certifications.
+    </p>
+  </div>
 </section>
-
 
 <section class="section">
-<div class="wrap">
+  <div class="wrap">
+    <div class="edu-timeline">
 
-    <!-- B.Tech -->
-    <div class="card edu-card">
-        <div class="edu-mark">B.T</div>
-
+      <!-- B.Tech -->
+      <div class="card edu-card">
+        <div class="edu-mark" style="background: var(--accent); color: #000; font-size: 0.75rem;">B.T</div>
         <div class="edu-content">
-            <h3>Bachelor of Technology (B.Tech)</h3>
-
-            <h4>Artificial Intelligence & Data Science</h4>
-
-            <p>
-                Sanjivani College of Engineering, Kopargaon
-            </p>
-
-            <span class="edu-date">
-                2024 – Present | Third Year
-            </span>
+          <h3>Bachelor of Technology (B.Tech)</h3>
+          <h4>Computer Science Engineering — AI &amp; Data Science Specialization</h4>
+          <p>Sanjivani College of Engineering, Kopargaon, Maharashtra</p>
+          <p style="margin-top: 6px; font-size: 0.88rem; color: var(--slate);">
+            Core subjects: Data Structures &amp; Algorithms, OOP, DBMS, Operating Systems, Computer Networks, Machine Learning, Data Science, Software Engineering.
+          </p>
+          <div style="margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap;">
+            <span class="edu-date">2024 – Present</span>
+            <span class="edu-date" style="color: #34d399; border-color: rgba(52,211,153,0.3); background: rgba(52,211,153,0.08);">Third Year</span>
+            <span class="edu-date" style="color: #fbbf24; border-color: rgba(251,191,36,0.3); background: rgba(251,191,36,0.08);">Pursuing</span>
+          </div>
         </div>
-    </div>
+      </div>
 
-
-    <!-- HSC -->
-    <div class="card edu-card">
-        <div class="edu-mark">12</div>
-
+      <!-- HSC -->
+      <div class="card edu-card">
+        <div class="edu-mark" style="background: #d9a441; color: #000;">12</div>
         <div class="edu-content">
-            <h3>Higher Secondary Certificate (HSC)</h3>
-
-            <h4>Science Stream</h4>
-
-            <p>
-                Shri Saibaba Junior College, Shirdi,
-                Maharashtra
-            </p>
-
-            <span class="edu-date">
-                Maharashtra State Board
-            </span>
+          <h3>Higher Secondary Certificate (HSC)</h3>
+          <h4>Science Stream (Physics, Chemistry, Mathematics &amp; Biology)</h4>
+          <p>Shri Saibaba Junior College, Shirdi, Maharashtra</p>
+          <div style="margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap;">
+            <span class="edu-date">Maharashtra State Board</span>
+          </div>
         </div>
-    </div>
+      </div>
 
-
-    <!-- SSC -->
-    <div class="card edu-card">
-        <div class="edu-mark">10</div>
-
+      <!-- SSC -->
+      <div class="card edu-card">
+        <div class="edu-mark" style="background: #7c3aed; color: #fff;">10</div>
         <div class="edu-content">
-            <h3>Secondary School Certificate (SSC)</h3>
-
-            <p>
-                St. John English Medium School,
-                Rahata, Maharashtra
-            </p>
-
-            <span class="edu-date">
-                Maharashtra State Board
-            </span>
+          <h3>Secondary School Certificate (SSC)</h3>
+          <h4>English Medium</h4>
+          <p>St. John English Medium School, Rahata, Maharashtra</p>
+          <div style="margin-top: 10px; display: flex; gap: 8px; flex-wrap: wrap;">
+            <span class="edu-date">Maharashtra State Board</span>
+          </div>
         </div>
-    </div>
+      </div>
 
-</div>
+    </div>
+  </div>
 </section>
 
-
 <footer class="site-footer">
-    <div class="wrap">
-
-        <p>© 2026 Arya Sonawane. All Rights Reserved.</p>
-
-        <ul class="footer-links">
-            <li><a href="https://www.linkedin.com/in/arya-sonawane-2072b132a" target="_blank">LinkedIn</a></li>
-
-            <li><a href="https://github.com/AryaSonawane557/my" target="_blank">GitHub</a></li>
-
-            <li><a href="mailto:aryasonawane81@gmail.com">Email</a></li>
-        </ul>
-
-    </div>
+  <div class="wrap">
+    <p>© 2026 Arya Sonawane. All Rights Reserved.</p>
+    <ul class="footer-links">
+      <li><a href="https://www.linkedin.com/in/arya-sonawane-2072b132a" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/AryaSonawane557/my" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="mailto:aryasonawane81@gmail.com">Email</a></li>
+    </ul>
+  </div>
 </footer>
 
 <script src="script.js"></script>

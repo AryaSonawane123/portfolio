@@ -563,6 +563,8 @@ a:focus-visible, button:focus-visible {
   .grid-3 { grid-template-columns: repeat(2, 1fr); }
   .about-teaser, .contact-grid { grid-template-columns: 1fr; }
   .hero-graph { display: none; }
+  .about-photo-grid { grid-template-columns: 1fr !important; }
+  .about-photo-grid .hero-photo-wrapper { max-width: 200px !important; margin: 0 auto 8px auto; }
 }
 
 @media (max-width: 640px) {

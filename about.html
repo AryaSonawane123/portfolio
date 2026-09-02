@@ -4,10 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Arya Sonawane</title>
-
+  <meta name="description" content="About Arya Sonawane — third-year B.Tech CSE student at Sanjivani College of Engineering, specializing in AI & Data Science.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,7 +14,6 @@
 
 <header class="site-header">
   <nav class="nav">
-
     <a href="index.html" class="nav-brand">
       <svg class="node-mark" viewBox="0 0 26 12" aria-hidden="true">
         <line x1="3" y1="6" x2="13" y2="3"></line>
@@ -26,13 +24,9 @@
       </svg>
       Arya Sonawane
     </a>
-
-    <button class="nav-toggle" aria-label="Toggle Navigation">
-      <span></span>
-      <span></span>
-      <span></span>
+    <button class="nav-toggle" aria-label="Toggle Navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
     </button>
-
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html" aria-current="page">About</a></li>
@@ -42,7 +36,6 @@
       <li><a href="certificates.html">Certificates</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-
   </nav>
 </header>
 
@@ -59,34 +52,84 @@
       </svg>
       About
     </span>
-
     <h1>About Me</h1>
-
     <p class="lede">
-      Passionate about Artificial Intelligence, Machine Learning, and Data Engineering.
+      CSE student with a passion for Artificial Intelligence, Machine Learning, and building data-driven systems.
     </p>
   </div>
 </section>
 
-<!-- About Section -->
+<!-- About Section — Bio + Quick Facts -->
 <section class="section">
-  <div class="wrap" style="max-width:800px;">
+  <div class="wrap" style="max-width: 960px;">
 
-    <div style="background: rgba(255, 255, 255, 0.02); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 16px; padding: 36px 32px; backdrop-filter: blur(10px); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);">
-      <h2 style="margin-bottom:20px; font-size: 1.8rem;">Who I Am</h2>
+    <div style="display: grid; grid-template-columns: 1fr 300px; gap: 32px; align-items: start;">
 
-      <p style="color:var(--slate); font-size:1.05rem; line-height:1.85; margin-bottom:20px;">
-        I am a third-year <strong>B.Tech student in Artificial Intelligence and Data Science</strong> with a primary focus on building scalable data systems and solving complex problems. My career goal is to become an impactful <strong>Data Scientist</strong> and ML Engineer.
-      </p>
+      <!-- Bio -->
+      <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 36px 32px; backdrop-filter: blur(10px); box-shadow: 0 8px 24px rgba(0,0,0,0.08);">
+        <h2 style="margin-bottom: 20px; font-size: 1.8rem;">Who I Am</h2>
 
-      <p style="color:var(--slate); font-size:1.05rem; line-height:1.85; margin-bottom:20px;">
-        I specialize in constructing end-to-end machine learning workflows using 
-        <strong>Python, SQL, IBM Cognos Analytics, and ML Frameworks</strong> — transforming raw unstructured data into actionable predictive insights and automated software solutions.
-      </p>
+        <p style="color: var(--slate); font-size: 1.05rem; line-height: 1.85; margin-bottom: 20px;">
+          I am a third-year <strong>B.Tech student in Computer Science Engineering (AI &amp; Data Science specialization)</strong> at Sanjivani College of Engineering, Kopargaon. My goal is to become an impactful <strong>Data Scientist and Software Engineer</strong> — someone who can bridge the gap between raw data and intelligent systems.
+        </p>
 
-      <p style="color:var(--slate); font-size:1.05rem; line-height:1.85; margin-bottom:0;">
-        Beyond core technical coursework, I actively build hands-on applications, complete industry-recognized certifications, and study the <strong>Japanese language</strong> to prepare for technical opportunities in global markets.
-      </p>
+        <p style="color: var(--slate); font-size: 1.05rem; line-height: 1.85; margin-bottom: 20px;">
+          My CSE foundation covers <strong>Data Structures &amp; Algorithms, OOP, DBMS, Operating Systems, and Computer Networks</strong>. On top of that, I specialize in end-to-end machine learning workflows using <strong>Python, Scikit-learn, TensorFlow, Pandas, and IBM Cognos Analytics</strong> — transforming raw data into actionable predictions.
+        </p>
+
+        <p style="color: var(--slate); font-size: 1.05rem; line-height: 1.85; margin-bottom: 0;">
+          Beyond academics, I actively build hands-on projects (fraud detection, disease prediction, crop recommendation), pursue industry-recognized IBM certifications, and study <strong>Japanese</strong> to prepare for technical opportunities in global markets.
+        </p>
+      </div>
+
+      <!-- Quick Facts Sidebar -->
+      <div style="display: flex; flex-direction: column; gap: 16px;">
+
+        <div style="background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 24px; backdrop-filter: blur(10px);">
+          <h3 style="font-size: 1rem; margin-bottom: 18px; color: var(--accent);">⚡ Quick Facts</h3>
+          <div style="display: flex; flex-direction: column; gap: 14px;">
+
+            <div>
+              <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--slate-light); text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 3px;">Degree</span>
+              <span style="font-size: 0.92rem; color: #fff; font-weight: 500;">B.Tech — CSE (AI &amp; DS)</span>
+            </div>
+
+            <div>
+              <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--slate-light); text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 3px;">Year</span>
+              <span style="font-size: 0.92rem; color: #fff; font-weight: 500;">3rd Year (2024 – Present)</span>
+            </div>
+
+            <div>
+              <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--slate-light); text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 3px;">College</span>
+              <span style="font-size: 0.92rem; color: #fff; font-weight: 500;">Sanjivani College of Engineering, Kopargaon</span>
+            </div>
+
+            <div>
+              <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--slate-light); text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 3px;">Location</span>
+              <span style="font-size: 0.92rem; color: #fff; font-weight: 500;">Maharashtra, India</span>
+            </div>
+
+            <div>
+              <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--slate-light); text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 3px;">Specialization</span>
+              <span style="font-size: 0.92rem; color: #fff; font-weight: 500;">AI &amp; Data Science</span>
+            </div>
+
+            <div>
+              <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--slate-light); text-transform: uppercase; letter-spacing: 0.1em; display: block; margin-bottom: 3px;">Availability</span>
+              <span style="display: inline-flex; align-items: center; gap: 6px; font-size: 0.88rem; color: #34d399; font-weight: 500;">
+                <span style="width: 7px; height: 7px; background: #10b981; border-radius: 50%; box-shadow: 0 0 6px #10b981;"></span>
+                Open to Internships
+              </span>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- CTA -->
+        <a href="contact.html" class="btn btn-primary" style="text-align: center; justify-content: center;">Get In Touch</a>
+        <a href="Resume/resume.pdf" target="_blank" class="btn btn-ghost" style="text-align: center; justify-content: center;">Download Resume</a>
+
+      </div>
     </div>
 
   </div>
@@ -104,24 +147,27 @@
 
     <div class="grid grid-3">
 
-      <div class="card" style="border-top: 3px solid #1d6f8c; padding: 28px;">
+      <div class="card" style="border-top: 3px solid #00e5ff; padding: 28px;">
+        <div style="font-size: 1.8rem; margin-bottom: 12px;">🤖</div>
         <h3 style="margin-bottom: 12px; font-size: 1.3rem;">Machine Learning</h3>
         <p style="line-height: 1.7; font-size: 0.98rem; color: var(--slate);">
-          Designing supervised and unsupervised predictive models, feature engineering pipelines, and real-time risk scoring algorithms.
+          Designing supervised and unsupervised predictive models, feature engineering pipelines, and real-time risk scoring systems using Scikit-learn and TensorFlow.
         </p>
       </div>
 
       <div class="card" style="border-top: 3px solid #d9a441; padding: 28px;">
+        <div style="font-size: 1.8rem; margin-bottom: 12px;">📊</div>
         <h3 style="margin-bottom: 12px; font-size: 1.3rem;">Data Analytics</h3>
         <p style="line-height: 1.7; font-size: 0.98rem; color: var(--slate);">
           Data cleaning, exploratory analysis, and BI reporting using SQL and IBM Cognos Analytics to drive data-backed decision-making.
         </p>
       </div>
 
-      <div class="card" style="border-top: 3px solid #101a33; padding: 28px;">
-        <h3 style="margin-bottom: 12px; font-size: 1.3rem;">AI Systems</h3>
+      <div class="card" style="border-top: 3px solid #7c3aed; padding: 28px;">
+        <div style="font-size: 1.8rem; margin-bottom: 12px;">⚙️</div>
+        <h3 style="margin-bottom: 12px; font-size: 1.3rem;">Software Development</h3>
         <p style="line-height: 1.7; font-size: 0.98rem; color: var(--slate);">
-          Developing intelligent applications centered on system reliability, clean modular architecture, and real-world deployment.
+          Building backend applications and APIs using Python and Flask, with a focus on clean modular architecture, OOP principles, and real-world deployment.
         </p>
       </div>
 
@@ -133,21 +179,9 @@
   <div class="wrap">
     <p>© 2026 Arya Sonawane. All Rights Reserved.</p>
     <ul class="footer-links">
-      <li>
-        <a href="https://www.linkedin.com/in/arya-sonawane-2072b132a" target="_blank" rel="noopener">
-          LinkedIn
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/AryaSonawane557/my" target="_blank" rel="noopener">
-          GitHub
-        </a>
-      </li>
-      <li>
-        <a href="mailto:aryasonawane81@gmail.com">
-          Email
-        </a>
-      </li>
+      <li><a href="https://www.linkedin.com/in/arya-sonawane-2072b132a" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://github.com/AryaSonawane557/my" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="mailto:aryasonawane81@gmail.com">Email</a></li>
     </ul>
   </div>
 </footer>
